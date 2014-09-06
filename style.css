@@ -1,0 +1,981 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0; 
+	 font: 12px Arial, Helvetica, sans-serif ;
+}  
+
+/**/
+#page { 
+width:1000px;
+margin:auto; 
+} 
+
+a {
+	outline: medium none;
+}
+
+.telefons { 
+position:absolute;
+left:631px;
+top:7px;
+
+
+
+} 
+
+.numb {
+	
+	font:  bold 104% Arial ;
+	font-size:18px; 
+	color: #000;
+	position: absolute; 
+	left:652px; 
+	top:28px;
+
+	
+
+
+}
+	
+.callback { 
+position:absolute;
+left:828px; 
+top:33px;
+border-bottom: 1px dotted #696969;
+    color: #696969;
+font:108% Arial;
+
+}
+
+.callback a { 
+color:#696969;
+text-decoration:none;
+border-bottom:#696969 1px dotted;
+outline:none;
+} 
+
+
+.header {
+	 height:110px;
+	position: relative;	
+
+
+} 
+
+.header img {
+	padding-top:26px;
+
+}
+
+.logo{ 
+left: 8px;
+    position: absolute;
+    top:-1px;
+outline:none;
+} 
+
+
+  
+
+.slog {
+color:#4f4f4f; 
+font:bold 104% Arial;
+left:8px;
+position:relative;
+top:75px; 
+} 
+
+
+.top-menu {
+	position:absolute;
+	top:38px;
+	right:13px;
+	
+	 
+    
+}  
+
+.top-menu li {
+	display:inline;
+padding-left: 16px;
+
+}
+
+.top-menu li a {
+	color:#5b5b5b;
+	font:bold 96% Arial;
+	 text-decoration: none; 
+     outline:none;
+}
+
+.top-menu li a img {
+position:relative;
+	left: 1px;
+}
+
+.top-menu li a:hover{
+  
+  border-bottom:3px solid #adce00;
+  color:#9cce00;
+  padding:0 0 25px;
+}
+	 
+
+
+.borderline {
+	position:absolute;
+	top:91px;
+} 
+
+.slides {
+	background-image: url(images/slback.png);
+	width:1000px;
+	height:280px;
+	background-repeat: no-repeat;
+    position:relative;
+    right:1px;
+}
+
+#slider {
+width:740px;
+height:268px;
+/*IE bugfix*/
+padding:0;
+margin:0;
+overflow: hidden; 
+position: absolute; 
+right: 0;
+top:9px;
+}
+
+#slider li { list-style:none; } 
+
+
+
+
+.smshadow {
+    width:229px;
+	height:203px;
+    position:absolute;
+    left:18px;
+    top:62px;
+    opacity: 0.3;
+} 
+
+.smblock {
+	width:240px; 
+	height:223px; 
+	position:absolute;
+	opacity: 0.8; 
+	left:11px;
+	top:38px;
+}
+
+.slsepar {
+	position: absolute;
+	height:3px;
+	width:1000px; 
+	top:277px;
+}   
+
+.smallcalc{
+	position:absolute;
+	width:240px;
+	height:210px;
+	top:100px;
+    left:40px;
+}
+
+.osagobutton {
+	height:14px;
+    top:-42px;
+    position:absolute;
+    width:44px;
+    outline:none;
+}
+
+.kaskobutton {
+	
+	 
+	top:-49px;
+	position:relative;
+	left:67px;
+	outline:none;
+    cursor: pointer;
+}
+
+.osagobutton {
+	
+	top:-49px;
+	left:-10px;
+	position:absolute;
+    outline:none;
+    cursor: pointer;
+}
+
+.popupWrapper {
+	position: absolute; 
+	width:728px;
+	height:290px;
+	left:0px;
+	top:-1px;
+    display: none;
+}
+
+.popupWrapper a {
+	border: medium none !important;
+}
+
+.popupStyle {
+	position: absolute; 
+	width:648px; 
+	height:290px;
+	left:0px;
+	top:1px;
+	background-color: rgb(255,255,255);
+	z-index: 800; 
+	border-radius: 10px; 
+	border: 1px solid rgb(212, 233, 166); 
+	display: block;
+}
+
+.popupTitle {
+    margin-left: 7px;
+    margin-top: 8px;
+    font: 96% Arial;
+    color: rgb(105, 105, 105);
+    border: medium none;
+    background-color: rgb(255, 255, 255);
+}
+
+.popupButton {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    z-index: 900;
+} 
+
+table.markTable {
+	margin-left: 17px; 
+	margin-top: 14px;
+} 
+
+tbody, tr, th, td {
+	margin: 0px;
+padding: 0px;
+border: 0px none;
+outline: 0px none;
+font-size: 100%;
+vertical-align: baseline;
+background: none repeat scroll 0% 0% transparent;
+border-collapse: collapse;
+border-spacing: 0px;
+} 
+
+table.markTable tr {
+	height: 20px !important;
+} 
+
+table.markTable td {
+	padding-bottom: 5px; 
+	padding-right: 19px; 
+	min-width: 89px;
+} 
+
+table.markTable td a {
+	font: 90% Arial;
+color: rgb(140, 140, 140);
+text-decoration: none;
+cursor: pointer;
+margin-right: 3px;
+}
+
+
+.selectItem{
+	position:absolute;
+    width:200px;
+    height:150px;
+    top:-12px;
+    left:-9px;
+    
+}
+
+.brandSelect {
+	background-color:#FFFFFF;
+	border:medium none; 
+	border-radius: 10px 10px 10px 10px; 
+	box-shadow: 1px 1px 1px rgba(102, 107, 91, 0.8) inset; 
+	color:#696969;
+	font:96% Arial;
+	height:27px;
+	padding: 3px 0 0;
+	position:absolute;
+	text-indent:8px;
+	width:200px;
+}
+
+.modelSelect {
+	background-color:#FFFFFF;
+	border:medium none; 
+	border-radius: 10px 10px 10px 10px; 
+	box-shadow: 1px 1px 1px rgba(102, 107, 91, 0.8) inset; 
+	color:#696969;
+	font:96% Arial;
+	height:27px;
+	padding: 3px 0 0;
+	position:absolute;
+	text-indent:8px;
+	top:40px;
+	width:200px;
+} 
+
+.yearSelect {
+	background-color:#FFFFFF;
+	border:medium none; 
+	border-radius: 10px 10px 10px 10px; 
+	box-shadow: 1px 1px 1px rgba(102, 107, 91, 0.8) inset; 
+	color:#696969;
+	font:96% Arial;
+	height:27px;
+	padding: 3px 0 0;
+	position:absolute;
+	text-indent:8px;
+	top:80px;
+	width:200px;
+}
+
+.countButton {
+	width:140px;
+    height:30px;
+    position: absolute;
+    top:107px;
+    left:21px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0,0,0,0);
+    background-image:url("images/count.png");   
+    background-origin: padding-box;
+    background-position: 0 0;
+    border:none;
+    margin:0;
+    padding:visible;
+}
+
+
+.countButton:hover{
+	background-image: url("images/count_hover.png");
+}
+
+.brandDown {
+	background-image: url("images/down.png");
+	height:6px;
+	left:180px;
+	position:absolute;
+	top:13px;
+    width:9px;
+} 
+
+.modelDown{
+	background-image: url("images/down.png"); 
+	height: 6px;
+	left:180px;
+	position:absolute;
+	top:53px;
+	width:9px;
+} 
+
+.yearDown{
+	background-image: url("images/down.png"); 
+	height: 6px;
+	left:180px;
+	position:absolute;
+	top:93px;
+	width:9px;
+} 
+
+.iconsNav{
+	height:180px;
+	position:relative;
+	width:1000px;
+	
+
+}
+
+.iblock{
+	height:190px;
+	position:absolute;
+	width:166px;
+	left:2px;
+	
+} 
+
+.iwrap {
+    
+    height: 190px;
+    position: relative;
+    width: 166px;
+}
+
+.iblink {
+    background-position: 0 25px;
+    background-repeat: no-repeat;
+    height: 125px;
+    left: 36px;
+    position: absolute;
+    top: 3px;
+    width: 104px;
+}
+
+
+
+
+.iblink:hover {
+    background-position: 0px -104px;
+    
+}
+
+.selected {
+	background-position: 0 -235px !important;
+}
+
+
+.ibText {
+    color: #4F4F4F;
+    font: bold 11px Arial;
+    height: 30px;
+    left: -8px;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 141px;
+    width: 120px;
+    z-index: 500;
+}
+
+.sign {
+	color: #a0cc00 !important;
+}
+
+.columns {
+	overflow: hidden; 
+	zoom:1;
+}
+.columns .menu-sitemap-tree {
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+}  
+
+.columns .content {
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+}  
+
+.columns .news {
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+} 
+
+.menu-sitemap-tree a {
+	text-decoration: none;
+	color:#4f4f4f;
+    outline: none;
+} 
+
+.menu-sitemap-tree{
+	position: relative;
+float: left;
+top: 9px;
+min-height: 66px;
+left: 12px;
+width: 230px;
+font: bold 103% Arial;
+	
+} 
+
+.folder {
+	background-image: url("images/arrow.png"); 
+	width:10px;
+	height:10px;
+	background-position: 0% 50%;
+	background-repeat: no-repeat;
+    position: relative; 
+    right:1px;
+    top: 14px;
+    cursor: pointer;
+}
+
+.foldbelow {
+	background-image: url("images/arr2.png");
+	width:7px;
+	height:7px;
+	background-position: 0% 50%; 
+	background-repeat: no-repeat; 
+	position: relative; 
+	top: 9px;
+    cursor: pointer;
+    left: 11px;
+}
+
+
+.menu-sitemap-tree>ul{
+	
+	list-style-type: none;
+    position: relative; 
+    left: -11px;
+    padding-left: 0px;
+}
+
+.menu-sitemap-tree ul>li a{
+	margin-left: 16px; 
+	top:1px;
+	position: relative;
+}
+
+.menu-sitemap-tree li
+{
+padding-left: 10px;
+}
+
+.menover {
+	background-image: url("images/greenbanlv1.png");
+    background-repeat: no-repeat;
+    
+} 
+
+.menover2 {
+	background-image: url("images/greenbanlv2.png");
+    background-repeat: no-repeat;
+    
+}
+
+.menover3{
+	background-image: url("images/greenbanlv2.png");
+	background-repeat: no-repeat;
+}
+
+.menu-sitemap-tree ul>li{
+	position: relative;
+	top:-1px;
+	border-bottom: 1px solid #e6e6e6; 
+	padding-top: 7px;
+    padding-bottom: 18px;
+    width: 230px; 
+    
+     
+}
+
+
+
+
+.menu-sitemap-tree ul ul > li {
+    border-bottom: 1px solid #E6E6E6;
+    list-style-type: none;
+    padding-bottom: 4px;
+    padding-top: 3px;    
+    width: 215px;
+}
+
+.menu-sitemap-tree ul ul {
+    position: relative;
+    margin-bottom: -19px;
+    padding-top: 15px;
+    padding-left: 5px;
+    
+}
+
+.menu-sitemap-tree ul ul>li a{
+	top: -2px;
+    position: relative;
+    left: 10px;
+}
+
+
+.menu-sitemap-tree ul ul li+li+li+li {
+	border-bottom: none;
+}
+
+.menu-sitemap-tree ul>li+li ul li+li+li{
+    border-bottom: none;
+} 
+
+.menu-sitemap-tree ul ul ul>li{
+	    border-bottom: medium none;
+    font: 96% Arial;
+    left: 9px;
+    list-style-image: none;
+    list-style-type: none;
+    width: 194px;
+    margin-top: -15px;
+    height: 20px;
+    left: 6px;
+    margin-bottom: 2px;
+
+}  
+ 
+.menu-sitemap-tree ul ul ul li a{
+top: 3px;
+position: relative;
+left: -3px;
+}
+
+/*.menu-sitemap-tree ul li:hover {
+    background-image: url("images/greenbanlv1.png");
+    background-repeat: no-repeat;
+}
+
+
+.menu-sitemap-tree ul ul li:hover {
+	background-image: url("images/greenbanlv2.png");
+	background-repeat: no-repeat;
+}*/
+
+.menu-sitemap-tree ul ul ul {
+position: relative; 
+top:7px;
+margin: 0px !important;
+}
+
+/*.menu-sitemap-tree ul li>ul{
+	background-repeat: no-repeat;  
+}
+
+.menu-sitemap-tree ul ul ul>li:hover{
+	background-image: url("images/greenban.png");
+    
+}*/
+
+
+
+
+.content {
+	margin-left: 261px;
+	margin-top:-1px;
+	min-height: 567px; 
+	position: relative; 
+	width:525px;
+    top:20px;
+} 
+
+.content h1 {
+    font: bold 122% Arial;
+    left: 5px;
+    position: relative;
+    top: 1px;
+}
+
+
+.content a {
+	color: #92C500;
+	font:103% Arial;
+	text-decoration: none; 
+	border-bottom: 1px dotted #92C500;
+    
+} 
+
+.content p {
+	color:#666666;
+	font:103%/1.8 Arial;
+	margin-bottom: 25px; 
+	margin-left: 5px; 
+	margin-top: -4px;
+    outline: medium none;
+    border: none;
+    
+    
+} 
+
+.toline {
+    display: inline !important;
+    
+}
+
+
+.content p>a {
+    
+	margin-right: 33px;
+    
+}
+
+
+
+
+.news {
+    float: right;
+    width: 214px;
+}
+
+.news h1 {
+    color: #303030;
+    font: bold 122% Arial;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+div.news .lastnews {
+	background-color: none;
+}
+
+
+div.news .lastnews .time {
+	font:bold #CCC;
+}
+
+
+div.news .lastnews .title { 
+	font-size:123%; 
+	font-weight: bold;
+    position: relative; 
+    top:-7px; 
+    left:2px;
+}
+
+div.news .lastnews .title:visited{
+	color:#000;
+} 
+
+
+div.news .lastnews .time {
+	color: #b0b0b0;
+	font-weight:bold;
+	font-size:90%; 
+    position: relative; 
+    top:4px;
+    left:10px;
+} 
+
+
+div.news p.newstext {
+	color:#737373;
+	text-indent: 10px;
+    position: relative; 
+    top:-4px;
+    text-align: left;
+
+} 
+
+
+div.news a.allnews {
+    font:103% Arial;
+    color: #92C500; 
+    margin-left: 140px; 
+    text-decoration: none; 
+    border-bottom: 1px dotted #92C500;
+}
+
+
+p {
+	padding: 0;
+} 
+
+
+.partners {
+    height: 165px;
+    position: relative;
+}
+.separator {
+    height: 1px;
+    position: absolute;
+    top: 40px;
+    width: 1000px;
+}
+
+.footerSlider {
+    position: relative;
+    height: 120px;
+    top: 60px; 
+    overflow: hidden;
+}
+
+.amazon_scroller {
+	border-radius: 10px 10px 10px 10px; 
+	margin: 0; 
+	padding: 0; 
+	overflow: hidden;
+} 
+
+ .amazon_scroller_mask {
+	margin-left:3px; 
+	margin-right:3px;
+	overflow: hidden; 
+	position:absolute;
+} 
+
+.amazon_scroller ul {
+	float: left;
+	margin: 0;
+	padding: 0; 
+	overflow: hidden;
+}
+
+.amazon_scroller ul li {
+    display: inline;
+    float: left;
+    list-style: none outside none;
+    margin: 0 5px;
+    padding: 0;
+    text-align: center;
+    width:90px; 
+    height:90px;
+} 
+
+
+.amazon_scroller ul li a {
+    text-decoration: none;
+    width:90px; 
+    height:90px;
+}
+
+
+.footer {
+    height: 84px;
+    position: relative;
+    width: 1000px;
+}
+.footer ul {
+    display: inline;
+    font: 71% Arial;
+    list-style-type: none;
+    position: absolute;
+    top: 16px;
+}
+.footer ul li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 15px;
+}
+.footer ul li a {
+    color: #565656;
+}
+.copyright {
+    color: #565656;
+    font: 71% Arial;
+    left: 10px;
+    position: absolute;
+    top: 27px;
+}
+.logoImg {
+    height: 30px;
+    left: 890px;
+    position: absolute;
+    top: 15px;
+    width: 79px;
+}
+.tele {
+    color: #565656;
+    font: 91% Arial;
+    position: absolute;
+    top: 26px;
+    left: 780px;
+}
+.sep {
+    position: absolute;
+} 
+
+.alertDiv {
+background-image:url("images/form_back.png"); 
+background-repeat: repeat-y;
+position: absolute;
+top: 0px;
+left: 0px;
+float: left; 
+display: none;
+z-index: 9000;
+} 
+
+.alertRecallBack {
+background-image: url("images/form_frw.png");
+position: absolute;
+display: block;
+top: 58px;
+left: 638.5px;
+width: 440px;
+height: 260px;
+z-index: 901;
+} 
+
+.alertRecallBack p.nameLabel {
+    color: #35352D;
+    font: bold 100% Arial;
+    left: 69px;
+    position: absolute;
+    top: 49px;
+    width: 300px;
+} 
+
+input.nameInput {
+    position: absolute;
+    left: 139px;
+    top: 51px;
+    color: rgb(53, 53, 45);
+    font: bold 100% Arial;
+    width: 258px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid rgb(204, 231, 151);
+    height: 28px;
+    box-shadow: 1px 1px 1px rgba(102, 107, 91, 0.8) inset;
+    background-color: rgb(255, 255, 255);
+    text-indent: 10px;
+} 
+
+input.phoneInput {
+    top: 91px;
+} 
+
+input.mailInput {
+    top: 131px;
+} 
+
+.alertRecallBack p.mailLabel {
+    left: 74px;
+    top: 89px; 
+} 
+
+.alertRecallBack p.phoneLabel {
+    left: 10px;
+    top: 129px;
+} 
+
+.alertDiv form {
+    left: 0;
+    position: absolute;
+    top: 28px;
+} 
+
+.alertCloseRecall {
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    background-image: url("images/clz.png");
+    width: 25px;
+    height: 25px; 
+    background: none repeat scroll 0% 0% transparent;
+padding: 0px;
+margin: 0px;
+width: 25px;
+overflow: visible;
+border: 0px none;
+cursor: pointer;
+}
+
+.recallAccButton {
+position: absolute;
+right: 7px;
+top: 223px;
+background-image: url("images/sb2.png");
+width: 140px;
+height: 30px; 
+background: none repeat scroll 0% 0% transparent;
+overflow: visible;
+border: 0px none;
+cursor: pointer;
+} 
+
+.recallAccButton:hover {
+	background-image: url("images/sendbAct.png");
+}
